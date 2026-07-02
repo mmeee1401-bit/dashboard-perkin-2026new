@@ -287,7 +287,7 @@ col1, col2 = st.columns([2,8])
 
 with col1:
     st.link_button(
-        "⬅️ Dashboard Utama",
+        "⬅️ Kembali ke Dashboard Utama",
         "https://dashboard-perkin-utama.streamlit.app/",
         use_container_width=True
     )
