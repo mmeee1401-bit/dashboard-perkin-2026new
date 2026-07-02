@@ -283,7 +283,20 @@ df["Realisasi"] = pd.to_numeric(
 # =====================================================
 # HEADER
 # =====================================================
-    
+st.markdown("""
+<a href="https://dashboard-perkin.streamlit.app"
+target="_self"
+style="
+text-decoration:none;
+color:#1976D2;
+font-size:17px;
+font-weight:600;">
+⬅ Dashboard Utama
+</a>
+""", unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
 col1, col2 = st.columns([8,4.5])
 
 with col1:
