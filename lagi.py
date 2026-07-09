@@ -283,11 +283,6 @@ df["Realisasi"] = pd.to_numeric(
 # =====================================================
 # HEADER
 # =====================================================
-st.link_button(
-    "⬅ Dashboard Utama",
-    "https://dashboard-perkin-utama.streamlit.app/",
-    use_container_width=False
-)
 
 col1, col2 = st.columns([8,4.5])
 
