@@ -185,20 +185,31 @@ transition:.25s;
 box-shadow:0 12px 28px rgba(0,0,0,.12);
 }
             
-/* ===========================
-SELECTBOX
-=========================== */
+/* Box select utama */
 div[data-baseweb="select"]{
-background:white !important;
-border-radius:12px !important;
+    background:white !important;
+    border-radius:14px !important;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
 }
 
+/* Isi select */
 div[data-baseweb="select"] > div{
-background:white !important;
-border:1px solid #D9E2EF !important;
-border-radius:12px !important;
+    background:white !important;
+    border:1px solid #D9E2EF !important;
+    border-radius:14px !important;
 }
-            
+
+/* Tambahan wrapper Streamlit */
+.stSelectbox > div > div{
+    background:white !important;
+    border-radius:14px !important;
+}
+
+/* Dropdown popup */
+div[data-baseweb="popover"]{
+    background:white !important;
+}
+           
 /* ===========================
 DOWNLOAD BUTTON
 =========================== */
